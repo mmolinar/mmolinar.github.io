@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/************ Navbar ************/
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* List */
+.navlist {
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.list {
+  padding: 13px;
+}
+
+.list a{
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+}
+
+.list a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+.icon-img {
+  height: 25px;
+  width: 25px;
+}
+
+#icon {
+  padding: 13px;
+}
+
+#icon a:hover {
+  color: black;
+}
+
+#button {
+  padding: 13px;
+  box-shadow: none;
+}
+
+#button button {
+  background-color: blue;
+  color: white;
+}
+/************ Hot Air Ballon ************/
+.image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/************ Search bar ************/
+/*Outside div*/
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.searchbar :hover {
+  box-shadow: 0 1px 1px #000 10%;
+}
+
+/*Searchbar containing the input, micro and magnify glass*/
+.search {
+  display: flex;
+  width: 45%;
+  border: 1px solid grey;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+/*Magnify glass image*/
+.magnify-glass {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.magnify-glass img{
+  margin-top: 10px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+input {
+  width: 580px;
+  height: 30px;
+}
+/************ Buttons ************/
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* To have space between buttons */
+.buttons button {
+  display: flex;
+  padding: 13px;
+  margin: 0 6px;
+  border-radius: 5px;
+}
+
+
+/************ Footer ************/
+.footer {
+  background-color: #EEE;
+  align-content: flex-end;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 13px;
+  color: rgb(49, 48, 48);
+}
